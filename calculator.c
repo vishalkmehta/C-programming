@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main() {    
 
     int i=8, j=3, k;
@@ -13,7 +14,10 @@ int main() {
     
     k=i/j;
     printf("The division of %d and %d is %d \n" ,i,j,k);
-    
+
+        int num = 144;
+        double  root = sqrt(num);
+    printf("The Square Root of %.2lf is %.3lf" ,num,root);
     return 0;
 }
     
